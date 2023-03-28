@@ -1,0 +1,39 @@
+{
+  "name": "receipt-tracker",
+  "version": "1.0.0",
+  "description": "A simple MERN stack application for tracking receipts and expenses",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "mocha tests/**/*.test.js --config tests/mocha.config.js --exit --require tests/test.js"
+  },
+  "author": "Tolga Mungan",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  },
+  "keywords": [
+    "mern",
+    "stack",
+    "receipts",
+    "expenses",
+    "tracking",
+    "budgeting",
+    "node.js",
+    "react",
+    "mongodb"
+  ],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3"
+  }
+}
