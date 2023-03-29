@@ -17,7 +17,7 @@ To get started, you'll need to have Node.js and MongoDB installed on your system
 Once you have Node.js and MongoDB installed, you can clone this repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/receipt-tracker.git
+git clone https://github.com/tolgamungan/receipt-tracker.git
 cd receipt-tracker
 npm install
 
