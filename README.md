@@ -9,7 +9,6 @@ Receipt Tracker is a simple MERN stack application for tracking receipts and exp
 * Update receipts
 * User authentication
 
-
 ## Getting Started
 
 To get started, you'll need to have Node.js and MongoDB installed on your system. You can download Node.js from the official website, and install MongoDB by following the instructions on the MongoDB website.
